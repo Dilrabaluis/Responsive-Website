@@ -1,0 +1,31 @@
+.ma{
+	font-size: 15px; 
+	margin-bottom:1%;
+}
+.pa{
+	padding-top:3%;
+}
+#myInput {
+    background-image: url('https://static.runoob.com/images/mix/searchicon.png'); /* 搜索按钮 */
+    background-position: 10px 12px; /* 定位搜索按钮 */
+    background-repeat: no-repeat; /* 不重复图片*/
+    width: 60%; 
+    font-size: 15px; /* 加大字体 */
+    padding: 12px 20px 12px 40px; 
+    border: 1px solid #ddd; 
+    margin-bottom: 12px; 
+}
+#myInput:hover{
+	width:80%;
+	-webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+.btn{
+	width:30%;
+}
+.text{
+	text-align:right;
+	border:5px solid #000;
+}

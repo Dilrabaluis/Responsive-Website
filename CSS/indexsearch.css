@@ -1,0 +1,21 @@
+
+label input {
+	display: none;	
+
+}
+label input:checked + img {
+	background: rgb(151,187,211);
+	border-bottom:1px solid rgb(151,187,211);
+}
+.b{
+	margin-left:10px;}
+
+tr{
+	border:none;
+	}
+td{
+	border:1px solid #fff;
+	padding:10px 10px ;
+	height:20px;
+	text-align:center;
+}
